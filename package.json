@@ -1,0 +1,44 @@
+{
+  "name": "nativescript-auto-fit-text",
+  "version": "1.0.0",
+  "description": "AutoFitText NativeScript plugin.",
+  "main": "auto-fit-text",
+  "typings": "index.d.ts",
+  "nativescript": {
+    "platforms": {
+      "android": "6.5.3",
+      "ios": "6.5.4"
+    }
+  },
+  "scripts": {
+    "build": "npm i && tsc",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bradmartin/nativescript-auto-fit-text.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "JavaScript",
+    "Android",
+    "iOS",
+    "AutoFitText",
+    "Adjust font to with"
+  ],
+  "author": {
+    "name": "Daniel Leal",
+    "email": "danielgek@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/bradmartin/nativescript-auto-fit-text/issues"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/bradmartin/nativescript-auto-fit-text",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "@nativescript/core": "6.5.4",
+    "tns-platform-declarations": "6.5.15",
+    "typescript": "4.1.3"
+  }
+}
